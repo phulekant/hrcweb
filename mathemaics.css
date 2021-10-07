@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+#maths{
+    /* height: 500px; */
+    width: 100%;
+   
+    
+}
+.maths-container{ 
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 8rem;
+}
+
+.maths-container-1{
+    height: 260px;
+    width: 32%;
+    border: 1px solid rgb(59, 58, 58);
+    box-shadow:4px 4px 10px grey; 
+    border-radius: 4px; 
+    background-color: rgb(252, 250, 250);
+}
+.maths-container-2{
+    background-color: rgb(252, 250, 250);
+    width: 64%;
+    border: 1px solid rgb(59, 58, 58);
+       box-shadow:4px 4px 10px grey; 
+    border-radius: 4px; 
+   
+}
+.maths-container-1 h2{
+    background-color:rgb(182, 68, 15) ;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.maths-container-1 ul{
+    margin: 8px ;
+    list-style: none;
+}
+.maths-container-1 ul li{
+    margin: 2px 0px;
+    padding: 8px;
+    background-color: rgb(189, 175, 175);
+}
+.maths-container-1 ul li a{
+    margin: 2px;
+    padding: 2px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.maths-container-1 ul li a:active{
+    text-decoration: underline;
+}
+.maths-container-1 ul li:hover{
+    background-color: rgb(117, 143, 105);
+}
+
+.maths-container-2-container{
+    margin: 8px;
+    /* border: 2px solid red; */
+}
+.maths-container-2 h1{
+    background-color:rgb(189, 175, 175) ;
+    border-radius: 4px;
+    color: rgb(182, 68, 15);
+    font-size: 25px;
+    padding: 8px 12px;
+    margin: 8px 0px;
+    line-height: 40px;
+
+}
+.maths-container-2 img{
+    width: 100%;
+    margin: 4px 0px;
+    
+    /* faculty start */
+}
+.faculty{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.faculty-card{
+    display: flex;
+    width: 50% ;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    border-top: 1px solid rgb(189, 175, 175);
+    border-bottom: 1px solid rgb(189, 175, 175);
+
+}
+.faculty-card img{
+    height: 150px;
+    width: 115px;
+    border-radius: 4px;
+}
+.faculty-details a{
+    text-decoration: none;
+    color:rgb(182, 68, 15) ;
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+/* faculty end  */

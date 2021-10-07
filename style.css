@@ -75,30 +75,83 @@ header{
 }
 /* mid-header end */
 /* bottom-header start */
-.bottom-header{
-    background-color: rgb(182, 68, 15);
-}
-.bottom-header ul{
+#bottom-header{
     display: flex;
-    list-style: none;
+    background-color: rgb(182, 68, 15);
+    align-items: center;
     justify-content: center;
-
 }
-.bottom-header ul li{
-   
-    padding: 3px;
+#bottom-header > ul{
+    background-color: rgb(182, 68, 15);   
+}
+#bottom-header > ul>li:hover{
+    background-color: white;
+}
+#bottom-header > ul>li:hover a{
+    color:rgb(182, 68, 15) ;
+}
+
+#bottom-header >ul>li{
+  
     padding: 10px 5px;
     border-right: thin solid rgb(158, 151, 49);
     border-left: thin solid rgb(158, 151, 49);
-
 }
-.bottom-header ul li a{
-    margin: 3px 15px;
+#bottom-header ul{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 25px;
+}
+
+#bottom-header ul a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
+    margin: 4px 10px;
+    padding: 3px;
+    font-size: 16px;
+    display: block;
 }
+#bottom-header ul li{
+    float: left;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+  
+}
+#bottom-header ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    
+    display: none;
+    margin: 2px 3px;
+    border: 1pt solid rgb(182, 159, 159);
 
+}
+#bottom-header ul ul a{
+    color:rgb(182, 68, 15);
+}
+#bottom-header ul ul li :hover {
+    color:rgb(0, 0, 0);
+}
+#bottom-header ul ul li{
+    border-top: 1px solid rgb(228, 211, 211);
+    border-bottom: 1px solid rgb(228, 211, 211);
+    background-color: rgb(245, 240, 231);
+    float: none;
+    width: 175px;
+}
+#bottom-header ul ul ul{
+    top: 0px;
+    left: 100%;
 
+}
+#bottom-header ul li:hover >ul{
+    display: block;
+}
 
 
 /* bottom-header end */
